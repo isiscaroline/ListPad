@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/action_search"
+        android:title="Pesquisar"
+        app:showAsAction="always"
+        app:actionViewClass="android.widget.SearchView"/>
+
+    <item
+        android:id="@+id/action_alterarLista"
+        android:title="Editar Lista"
+        android:icon="@android:drawable/ic_menu_edit"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/action_addCategoria"
+        android:title="Adicionar Categoria"
+        android:icon="@android:drawable/ic_menu_add"
+        app:showAsAction="collapseActionView"
+        android:iconTint="@android:color/darker_gray"/>
+
+    <item
+        android:id="@+id/action_excluirLista"
+        android:title="Excluir Lista"
+        android:icon="@android:drawable/ic_menu_delete"
+        app:showAsAction="collapseActionView"/>
+
+</menu>

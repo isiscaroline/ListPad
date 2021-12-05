@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">ListPad</string>
+
+    <string-array name="categorias">
+        <item>Geral</item>
+        <item>Tarefas</item>
+        <item>Compras</item>
+        <item>Compromissos</item>
+    </string-array>
+    <string name="descricao"> Not crossed <strike> crossed </strike> </string>
+</resources>

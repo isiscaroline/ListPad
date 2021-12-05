@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nome da lista"
+        android:textSize="30sp" />
+
+    <EditText
+        android:id="@+id/editTextNome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Descrição"
+        android:textSize="30sp" />
+
+    <EditText
+        android:id="@+id/editTextDescricao"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30sp" />
+
+
+    <CheckBox
+        android:id="@+id/checkBoxUrgente"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Urgente"
+        android:textColor="#807E7E"
+        android:textSize="30sp" />
+
+<!--    <EditText-->
+<!--        android:id="@+id/editTextUrgente"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:textSize="30sp" />-->
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Categoria:"
+        android:textSize="30sp" />
+
+    <RadioGroup
+        android:id="@+id/categoriaRg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <RadioButton
+            android:id="@+id/geralRb"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:checked="true"
+            android:text="Geral" />
+
+        <RadioButton
+            android:id="@+id/tarefasRb"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:checked="false"
+            android:text="Tarefas" />
+
+        <RadioButton
+            android:id="@+id/comprasRb"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:checked="false"
+            android:text="Compras" />
+
+        <RadioButton
+            android:id="@+id/compromissosRb"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:checked="false"
+            android:text="Compromissos" />
+
+    </RadioGroup>
+
+<!--    <Spinner-->
+<!--        android:id="@+id/spinnerCategoria"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_margin="5dp"-->
+<!--        android:layout_height="wrap_content" />-->
+
+
+<!--    <EditText-->
+<!--        android:id="@+id/editTextCategoria"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:textSize="30sp" />-->
+</LinearLayout>
