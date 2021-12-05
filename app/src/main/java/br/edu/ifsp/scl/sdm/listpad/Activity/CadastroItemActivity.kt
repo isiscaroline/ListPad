@@ -19,8 +19,8 @@ class CadastroItemActivity : AppCompatActivity() {
 
         lista = this.intent.getSerializableExtra("lista") as Lista
 
-        val id = lista.id.toString()
-        Toast.makeText(applicationContext, id, Toast.LENGTH_SHORT).show()
+//        val id = lista.id.toString()
+//        Toast.makeText(applicationContext, id, Toast.LENGTH_SHORT).show()
 
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_cadastro_item)
